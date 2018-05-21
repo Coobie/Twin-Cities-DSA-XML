@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+#####################################################################
+# file    : cities.xml                                              #
+# purpose : xml data refactoring                                    #
+# cities  : Portsmouth & Sydney (City)                              #
+#####################################################################
+TODO: move poi into cities
+-->
+<twinning xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="cities.xsd">
+    <image>../images/banner.png</image>
+    <description>Sydney has a historic link with Portsmouth -
+        the first colonial ships to arrive in Sydney Cove in 1788 sailed from Portsmouth.
+        The official sister link was formed in 1984, in time for the bicentennial anniversary
+        of the sailing of the First Fleet.
+        An Australian Settlers Memorial of two anchor links can be found in Sally Port -
+        there is an identical memorial in Sydney. The Lord Mayor of Portsmouth at the time, Councillor Barry Maine,
+        visited Sydney for the 2000 Olympics.</description>
+    <description_source>https://www.portsmouth.gov.uk/ext/the-council/policies-and-strategies/twinning</description_source>
+
+    <cities>
+        <city woeid="32452">
+            <name>Portsmouth</name>
+            <country>United Kingdom</country>
+            <country_code>GBR</country_code>
+            <latitude>50.798234</latitude>
+            <longitude>-1.090905</longitude>
+            <description>Portsmouth is a port city and naval base on England's south coast, mostly spread across Portsea Island. It's known for its maritime heritage and Portsmouth Historic Dockyard. The city forms part of the South Hampshire built-up area, which also covers Southampton and the towns of Havant, Waterlooville, Eastleigh, Fareham, and Gosport.The city's history can be traced to Roman times. A significant naval port for centuries, Portsmouth has the world's oldest dry dock.</description>
+            <description_source>https://en.wikipedia.org/wiki/Portsmouth</description_source>
+            <population>205400</population>
+            <area>40.25</area>
+            <currency>Pound Sterling (GBP)</currency>
+            <population_density>5100</population_density>
+            <website>https://www.portsmouth.gov.uk/</website>
+            <wiki>https://en.wikipedia.org/wiki/Portsmouth</wiki>
+            <google_maps>https://www.google.co.uk/maps/place/Portsmouth/</google_maps>
+            <image>http://www.investinportsmouth.co.uk/Images/Video%20600x400%20for%20homepage_tcm66-376946.jpg</image>
+            <image_alt>Ariel shot of Portsmouth harbour front.</image_alt>
+            <weather>
+                <current_weather>
+                    <temperature>280.87</temperature>
+                    <humidity>52</humidity>
+                    <wind_speed>7.7</wind_speed>
+                    <wind_direction>270</wind_direction>
+                    <icon>03d</icon>
+                    <description>scattered clouds</description>
+                    <weather_time>1520509800</weather_time>
+                    <weather_saved>1520511553</weather_saved>
+                </current_weather>
+                <forecast_weather>
+                    <temperature>282.38</temperature>
+                    <humidity>92</humidity>
+                    <wind_speed>7.82</wind_speed>
+                    <wind_direction>256.004</wind_direction>
+                    <icon>02d</icon>
+                    <description>few clouds</description>
+                    <weather_time>1520521200</weather_time>
+                    <weather_saved>1520511553</weather_saved>
+                </forecast_weather>
+            </weather>
+            <places_of_interest>
+                <place_of_interest poi_id="1" category="Dockyard">
+                    <name>Portsmouth Historic Dockyard</name>
+                    <address>Victory Gate, HM Naval Base, Portsmouth PO1 3LJ</address>
+                    <capacity/>
+                    <latitude>50.800531</latitude>
+                    <longitude>-1.109466</longitude>
+                    <website>http://www.historicdockyard.co.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Portsmouth_Historic_Dockyard</wiki>
+                    <description>Portsmouth Historic Dockyard is an area of HM Naval Base Portsmouth which is open to the public; it contains several historic buildings and ships. It is managed by the National Museum of the Royal Navy as an umbrella organisation representing five charities: the Portsmouth Naval Base Property Trust, the National Museum of the Royal Navy Portsmouth, the Mary Rose Trust, the Warrior Preservation Trust Ltd and the HMS Victory Preservation Company. Portsmouth Historic Dockyard Ltd was created to promote and manage the tourism element of the Royal Navy Dockyard, with the relevant trusts maintaining and interpreting their own attractions. It also promotes other nearby navy-related tourist attractions.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Portsmouth_Historic_Dockyard</description_source>
+                    <short_description>Portsmouth Historic Dockyard is an area of HM Naval Base Portsmouth which is open to the public; it contains several historic buildings and ships.</short_description>
+                    <image>https://photos.smugmug.com/Aerial/Portsmouth-Historic-Dockyard/i-6XxcMSC/0/f1d50236/S/SPR_7990-S.jpg</image>
+                    <image_alt>Ariel shot of the docks showing HMS Victory and the Mary Rose museum.</image_alt>
+                    <map_icon>slipway.png</map_icon>
+                </place_of_interest>
+                <place_of_interest poi_id="2" category="Museum">
+                    <name>Mary Rose Museum</name>
+                    <address>Main Rd, Portsmouth PO1 3PY</address>
+                    <capacity>250</capacity>
+                    <latitude>50.802211</latitude>
+                    <longitude>-1.108853</longitude>
+                    <website>http://www.maryrose.org</website>
+                    <wiki>https://en.wikipedia.org/wiki/Mary_Rose_Museum</wiki>
+                    <description>The Mary Rose Museum is a historical museum located at Historic Dockyards in Portsmouth in the United Kingdom run by the Mary Rose Trust.The museum is dedicated to the 16th century Tudor navy warship Mary Rose as well as the historical context in which she was active. The museum opened in 1984 and displays artefacts from the ship as well as the ship itself in a dedicated ship hall, while it has been undergoing conservation. In September 2009 the ship hall was closed to allow the start of construction of a new museum that was opened at the end of May 2013. The complete conservation of the Mary Rose will be finished in 2016, when she will be fully integrated with the new museum environment.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Mary_Rose_Museum</description_source>
+                    <short_description>The Mary Rose Museum is a historical museum located at Historic Dockyards in Portsmouth in the United Kingdom run by the Mary Rose Trust.</short_description>
+                    <image>https://www.artfund.org/assets/what-to-see/museums-and-galleries/k-m/mary-rose-museum/new-mary-rose-museum-portsmouth-historic-dockyard-2mb.jpg</image>
+                    <image_alt>Outside of the Mary Rose Museum with HMS victory.</image_alt>
+                    <map_icon>naval_museum.png</map_icon>
+                </place_of_interest>
+                <place_of_interest poi_id="3" category="Landmark">
+                    <name>Spinnaker Tower</name>
+                    <address>Portsmouth PO1 3TT</address>
+                    <capacity>200</capacity>
+                    <latitude>50.795575</latitude>
+                    <longitude>-1.108517</longitude>
+                    <website>https://www.spinnakertower.co.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Spinnaker_Tower</wiki>
+                    <description>The Spinnaker Tower is a 560-foot (170 m) landmark observation tower in Portsmouth, England, UK. It is the centrepiece of the redevelopment of Portsmouth Harbour, which was supported by a National Lottery grant. Its shape was chosen by Portsmouth residents from a selection. The tower, designed by local firm HGP Architects and engineering consultants Scott Wilson and built by Mowlem, reflects Portsmouth's maritime history through its being modelled after a sail. The tower was opened on 18 October 2005.The tower is owned by Portsmouth City Council, but operationally it is managed by Continuum Leading Attractions, a cultural attractions group based in York. Continuum also runs five other visitor attractions across the country. Following a commercial sponsorship deal with Dubai-based Emirates airline, the tower was renamed in July 2015.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Spinnaker_Tower</description_source>
+                    <short_description>The Spinnaker Tower is a 560-foot (170 m) landmark observation tower in Portsmouth, England.</short_description>
+                    <image>http://s0.geograph.org.uk/geophotos/01/51/16/1511600_bb3e5408.jpg</image>
+                    <image_alt>Landscape including Spinnaker Tower from offshore.</image_alt>
+                    <map_icon>modern_tower.png</map_icon>
+                </place_of_interest>
+                <place_of_interest poi_id="4" category="Museum">
+                    <name>Portsmouth City Museum</name>
+                    <address>Museum Rd, Portsmouth PO1 2LJ</address>
+                    <capacity/>
+                    <latitude>50.791561</latitude>
+                    <longitude>-1.097727</longitude>
+                    <website>http://www.portsmouthcitymuseums.co.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Portsmouth_City_Museum</wiki>
+                    <description>Portsmouth Museum (aka Portsmouth City Museum) is a local museum in Museum Road in the city of Portsmouth, southern England.The building dates from the 1890s and was previously part of the Clarence and Victoria Barracks complex, which apart from the museum block, were demolished in 1967.The museum includes a display on the author Arthur Conan Doyle and his fictional creation, the detective Sherlock Holmes. Richard Lancelyn Green's Sir Arthur Conan Doyle Collection is one of the most wide-ranging in the world. It includes first editions of books, related letters, film and television memorabilia.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Portsmouth_City_Museum</description_source>
+                    <short_description>Portsmouth Museum (aka Portsmouth City Museum) is a local museum in Museum Road in the city of Portsmouth, southern England.</short_description>
+                    <image>http://www.portsmouthmuseums.co.uk/images/uploads/documents/143/city-museum-portsmouth-1893__medium.jpg</image>
+                    <image_alt>Outside of Portsmouth city Museum.</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+                <place_of_interest poi_id="4" category="Cathedral">
+                    <name>Portsmouth Cathedral</name>
+                    <address>High St, Portsmouth PO1 2HH</address>
+                    <capacity/>
+                    <latitude>50.790448</latitude>
+                    <longitude>-1.104295</longitude>
+                    <website>https://www.portsmouthcathedral.org.uk/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Portsmouth_Cathedral</wiki>
+                    <description>The Cathedral Church of St Thomas of Canterbury, commonly known as Portsmouth Cathedral, is an English cathedral church. It is the cathedral of the Church of England Diocese of Portsmouth and is located in the centre of Old Portsmouth. It is the seat of the Bishop of Portsmouth.The Anglican cathedral is one of the two cathedral churches in the city, the other being the Roman Catholic Cathedral of St John the Evangelist, Portsmouth which is located about one mile to the north.Around the year 1180, Jean de Gisors, a wealthy Norman merchant and Lord of the Manor of Titchfield, gave land in his new town of Portsmouth to the Augustinian canons of Southwick Priory so that they could build a chapel "to the Glorious Honour of the Martyr Thomas of Canterbury, one time Archbishop, on (my) land which is called Sudewede, the island of Portsea". It was given so that they could build a chapel dedicated to the honour of St Thomas of Canterbury, who was assassinated and martyred ten years earlier. This chapel was to become, in turn, a parish church in the 14th century and then a cathedral in the 20th century.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Portsmouth_Cathedral</description_source>
+                    <short_description>The Cathedral Church of St Thomas of Canterbury, commonly known as Portsmouth Cathedral, is an English cathedral church.</short_description>
+                    <image>https://www.wyrdlight.com/portsangcath/content/bin/images/large/Portsmouth11_AngCathedral_ajm.jpg</image>
+                    <image_alt>Outside of Portsmouth Cathedral.</image_alt>
+                    <map_icon>cathedral.png</map_icon>
+                </place_of_interest>
+                <place_of_interest poi_id="5" category="Sculpture">
+                    <name>Bonds of Friendship</name>
+                    <address>2 Broad St, Portsmouth, England</address>
+                    <capacity/>
+                    <latitude>50.789621</latitude>
+                    <longitude>-1.10674</longitude>
+                    <website>http://www.memorialsinportsmouth.co.uk/old-portsmouth/settlers.htm</website>
+                    <wiki/>
+                    <description>The sculpture recalls the sailing of the First Fleet of settlers from Spithead to Botany Bay, Australia, on 13 May 1787. The Fleet was led by Captain Arthur Phillip RN. Today it is a reminder of Portsmouth's past links with Australia and is a token of friendship between the two countries. The memorial is called 'BONDS OF FRIENDSHIP' and was unveiled by The Queen on the 11th July 1980.</description>
+                    <description_source>http://www.memorialsinportsmouth.co.uk/old-portsmouth/settlers.htm</description_source>
+                    <short_description>The sculpture recalls the sailing of the First Fleet of settlers from Spithead to Botany Bay, Australia, on 13 May 1787.</short_description>
+                    <image>https://2.bp.blogspot.com/-qYBAbaImTOY/WIj4hLtnvTI/AAAAAAAA8Ko/YUjFKoTdJRAg8oXDtmdcqkAx8oJorEjggCLcB/s1600/Aust%2BDay%2B46.jpg</image>
+                    <image_alt>The bonds of friendship near the seawall.</image_alt>
+                    <map_icon>modern_monument.png</map_icon>
+                </place_of_interest>
+                <place_of_interest poi_id="6" category="Museum">
+                    <name>HMS Warrior</name>
+                    <address>Victory Gate, HM Naval Base, Portsmouth PO1 3QX</address>
+                    <capacity/>
+                    <latitude>50.798238</latitude>
+                    <longitude>-1.109248</longitude>
+                    <website>hmswarrior.org</website>
+                    <wiki>https://en.wikipedia.org/wiki/HMS_Warrior_(1860)</wiki>
+                    <description>HMS Warrior is a 40-gun steam-powered armoured frigate built for the Royal Navy in 1859-61. She was the name ship of the Warrior-class ironclads. Warrior and her sister ship HMS Black Prince were the first armour-plated, iron-hulled warships, and were built in response to France's launching in 1859 of the first ocean-going ironclad warship, the wooden-hulled Gloire. Warrior conducted a publicity tour of Great Britain in 1863 and spent her active career with the Channel Squadron. Obsolescent following the 1871 launching of the mastless and more capable HMS Devastation, she was placed in reserve in 1875, and was decommissioned in 1883.</description>
+                    <description_source>https://en.wikipedia.org/wiki/HMS_Warrior_(1860)</description_source>
+                    <short_description>Britains first iron-hulled, armoured warship and pride of the fleet with an on-site visitor centre.</short_description>
+                    <image>https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/HMS_warriorjune20092.jpg/1200px-HMS_warriorjune20092.jpg</image>
+                    <image_alt>HMS Warrior with lots of small boats moored around it.</image_alt>
+                    <map_icon>naval_museum.png</map_icon>
+                </place_of_interest>
+            </places_of_interest>
+        </city>
+
+        <city woeid="1105779">
+            <name>Sydney</name>
+            <country>Australia</country>
+            <country_code>AUS</country_code>
+            <latitude>-33.866667</latitude>
+            <longitude>151.2</longitude>
+            <description>The City of Sydney is the local government area covering the Sydney central business district and surrounding inner city suburbs of the greater metropolitan area of Sydney, New South Wales, Australia.The central business district of Sydney is roughly bounded by Circular Quay and Sydney Harbour to the north, Macquarie Street to the east, Darling Harbour to the west and Liverpool Street and Central railway station to the south.</description>
+            <description_source>https://en.wikipedia.org/wiki/City_of_Sydney</description_source>
+            <population>224211</population>
+            <area>25</area>
+            <currency>Australian Dollar (AUD)</currency>
+            <population_density>8384</population_density>
+            <website>http://www.cityofsydney.nsw.gov.au/</website>
+            <wiki>https://en.wikipedia.org/wiki/City_of_Sydney</wiki>
+            <google_maps>https://www.google.co.uk/maps/place/Sydney+NSW+2000,+Australia/@-33.8679058,151.2012372,15z/</google_maps>
+            <image>https://brightcove04pmdo-a.akamaihd.net/5104226627001/5104226627001_5232364726001_5203603568001-vs.jpg</image>
+            <image_alt>Ariel shot of Sydney harbour at sunset.</image_alt>
+            <weather>
+                <current_weather>
+                    <temperature>291.38</temperature>
+                    <humidity>68</humidity>
+                    <wind_speed>3.1</wind_speed>
+                    <wind_direction>320</wind_direction>
+                    <icon>03n</icon>
+                    <description>scattered clouds</description>
+                    <weather_time>1520686800</weather_time>
+                    <weather_saved>1520690000</weather_saved>
+                </current_weather>
+                <forecast_weather>
+                    <temperature>290.1</temperature>
+                    <humidity>100</humidity>
+                    <wind_speed>0.61</wind_speed>
+                    <wind_direction>219.006</wind_direction>
+                    <icon>01n</icon>
+                    <description>clear sky</description>
+                    <weather_time>1520694000</weather_time>
+                    <weather_saved>1520690000</weather_saved>
+                </forecast_weather>
+            </weather>
+            <places_of_interest>
+                <place_of_interest poi_id="7" category="Performing arts centre">
+                    <name>Sydney Opera House</name>
+                    <address>Bennelong Point, Sydney NSW 2000, Australia</address>
+                    <capacity>5738</capacity>
+                    <latitude>-33.856784</latitude>
+                    <longitude>151.215297</longitude>
+                    <website>https://www.sydneyoperahouse.com/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Sydney_Opera_House</wiki>
+                    <description>The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia. It is one of the 20th century's most famous and distinctive buildings. Designed by Danish architect Jørn Utzon, the building was formally opened on 20 October 1973 after a gestation beginning with Utzon's 1957 selection as winner of an international design competition.On 28 June 2007, the Sydney Opera House became a UNESCO World Heritage Site having been listed on the (now defunct) Register of the National Estate since 1980, the National Trust of Australia register since 1983, the City of Sydney Heritage Inventory since 2000, the New South Wales State Heritage Register since 2003, and the Australian National Heritage List since 2005.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Sydney_Opera_House</description_source>
+                    <short_description>The Sydney Opera House is a multi-venue performing arts centre in Sydney, New South Wales, Australia.</short_description>
+                    <image>https://worldstrides.com/wp-content/uploads/2017/06/High_School_Honors_Performance_Series_Sydney_Opera_House.jpg</image>
+                    <image_alt>Sydney Opera House lit up in the evening.</image_alt>
+                    <map_icon>sight.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="8" category="Museum">
+                    <name>Museum of Sydney</name>
+                    <address>Bridge St and Phillip St, Sydney NSW 2000, Australia</address>
+                    <capacity/>
+                    <latitude>-33.863363</latitude>
+                    <longitude>151.211888</longitude>
+                    <website>https://sydneylivingmuseums.com.au/museum-of-sydney</website>
+                    <wiki>https://en.wikipedia.org/wiki/Museum_of_Sydney</wiki>
+                    <description>The Museum of Sydney is a historical collection and exhibit, built on the ruins of the house of New South Wales' first Governor, Arthur Phillip, on the present-day corner of Phillip and Bridge Street, Sydney.The original house, which was Australia's first Government House, was built in 1788 and later abandoned. The foundations were exposed by archaeologists in 1983. The new museum building on the site was designed by Denton Corker Marshall architects. The museum was built as part of the Governor Phillip Tower development and is managed by the Historic Houses Trust of New South Wales.The Museum of Sydney explores colonial and contemporary Sydney through objects, pictures and new digital media techniques. Panoramic views of Sydney—from 1788 until today—stretch across walls and video screens. Sydney's convict era is explored in a giant showcase of goods and chattels recovered from more than 25 archaeological digs.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Museum_of_Sydney</description_source>
+                    <short_description>The Museum of Sydney is a historical collection and exhibit, built on the ruins of the house of New South Wales first Governor, Arthur Phillip, on the present-day corner of Phillip and Bridge Street.</short_description>
+                    <image>https://assets.atdw-online.com.au/images/04eda0840efc3fa430b425f9c62aed7d.jpeg</image>
+                    <image_alt>Outside of the Museum of Sydney.</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="9" category="Museum">
+                    <name>Australian Museum</name>
+                    <address>1 William St, Sydney NSW 2010, Australia</address>
+                    <capacity/>
+                    <latitude>-33.874335</latitude>
+                    <longitude>151.21316</longitude>
+                    <website>australianmuseum.net.au</website>
+                    <wiki>https://en.wikipedia.org/wiki/Australian_Museum</wiki>
+                    <description>The Australian Museum is the oldest museum in Australia, with an international reputation in the fields of natural history and anthropology. It was first conceived and developed along the contemporary European model of an encyclopaedic warehouse of cultural and natural history and features collections of vertebrate and invertebrate zoology, as well as mineralogy, palaeontology and anthropology. Apart from exhibitions, the museum is also involved in Indigenous studies research and community programs. In the museum's early years, collecting was its main priority, and specimens were commonly traded with British and other European institutions. The scientific stature of the museum was established under the curatorship of Gerard Krefft, himself a published scientist.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Australian_Museum</description_source>
+                    <short_description>The Australian Museum is the oldest museum in Australia, with an international reputation in the fields of natural history and anthropology.</short_description>
+                    <image>https://australianmuseum.net.au/uploads/images/1885/exterior%20260907_big.jpg</image>
+                    <image_alt>Outside of the Australian Museum.</image_alt>
+                    <map_icon>historical_museum.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="10" category="Art gallery">
+                    <name>Art Gallery NSW</name>
+                    <address>Art Gallery Rd, Sydney NSW 2000, Australia</address>
+                    <capacity>1500</capacity>
+                    <latitude>-33.868804</latitude>
+                    <longitude>151.217414</longitude>
+                    <website>https://www.artgallery.nsw.gov.au/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Art_Gallery_of_New_South_Wales</wiki>
+                    <description>The Art Gallery of New South Wales (AGNSW), located in The Domain in Sydney, New South Wales, Australia, is the most important public gallery in Sydney and one of the largest in Australia. The Gallery's first public exhibition opened in 1874. Admission is free to the general exhibition space, which displays Australian art (from settlement to contemporary), European and Asian art. A dedicated Asian Gallery was opened in 2003.In 2013 the Gallery unveiled a strategic vision and masterplan, under the working title Sydney Modern: a proposal for major expansion and renewed focus on serving a global audience. The stated aim was to complete the project by 2021, the 150th anniversary of the Gallery's founding in 1871. In the same year, the Gallery received A$10.8 million from the NSW Government to finance the planning stages of Sydney Modern, which would see the construction of a new building and double the size of the institution. The money was used over the next two years for feasibility and engineering studies related to the use of land next to the gallery's existing 19th-century home, and to launch an international architectural competition.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Art_Gallery_of_New_South_Wales</description_source>
+                    <short_description>The Art Gallery of New South Wales (AGNSW), located in The Domain in Sydney, New South Wales, Australia.</short_description>
+                    <image>https://assets.atdw-online.com.au/images/7ed94b7ad8a7180cf0788b18bc3a9d6e.jpeg</image>
+                    <image_alt>Outside mid-day at the NSW art gallery.</image_alt>
+                    <map_icon>art_gallery.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="11" category="Observatory">
+                    <name>Sydney Observatory</name>
+                    <address>1003 Upper Fort St, Millers Point NSW 2000, Australia</address>
+                    <capacity/>
+                    <latitude>-33.85961</latitude>
+                    <longitude>151.204736</longitude>
+                    <website>https://maas.museum/sydney-observatory/</website>
+                    <wiki>https://en.wikipedia.org/wiki/Sydney_Observatory</wiki>
+                    <description>Sydney Observatory is located on a hill now known as Observatory Hill in the centre of Sydney. The site evolved from a fort built on 'Windmill Hill' in the early 19th century to an astronomical observatory during the nineteenth century. It is now a working museum where evening visitors can observe the stars and planets through a modern 40 cm Schmidt-Cassegrain telescope and a historic 29 cm refractor telescope built in 1874, the oldest telescope in Australia in regular use.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Sydney_Observatory</description_source>
+                    <short_description>Sydney Observatory is located on a hill now known as Observatory Hill in the centre of Sydney.</short_description>
+                    <image>https://maas.museum/app/uploads/2014/11/Sydney-Observatory-019-cropped.jpg</image>
+                    <image_alt>Sydney Observatory at night with the harbour bridge in the background.</image_alt>
+                    <map_icon>observatory.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="12" category="Bridge">
+                    <name>Sydney Harbour Bridge</name>
+                    <address>Sydney Harbour Bridge, Sydney NSW, Australia</address>
+                    <capacity/>
+                    <latitude>-33.852306</latitude>
+                    <longitude>151.210787</longitude>
+                    <website>https://www.sydney.com/destinations/sydney/sydney-city/sydney-harbour/sydney-harbour-bridge</website>
+                    <wiki>https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge</wiki>
+                    <description>The Sydney Harbour Bridge is a steel through arch bridge across Sydney Harbour that carries rail, vehicular, bicycle, and pedestrian traffic between the Sydney central business district (CBD) and the North Shore. The dramatic view of the bridge, the harbour, and the nearby Sydney Opera House is an iconic image of Sydney, and Australia itself. The bridge is nicknamed "The Coathanger" because of its arch-based design.Under the direction of Dr John Bradfield of the NSW Department of Public Works, the bridge was designed and built by British firm Dorman Long and Co Ltd of Middlesbrough and opened in 1932.The bridge's design was influenced by the Hell Gate Bridge in New York City. It is the sixth longest spanning-arch bridge in the world and the tallest steel arch bridge, measuring 134 m (440 ft) from top to water level. It was also the world's widest long-span bridge, at 48.8 m (160 ft) wide, until construction of the new Port Mann Bridge in Vancouver was completed in 2012.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge</description_source>
+                    <short_description>The Sydney Harbour Bridge is a steel through arch bridge across Sydney Harbour.</short_description>
+                    <image>https://images.arcadis.com/media/A/F/D/%7BAFDCAEB3-7314-48FC-B624-D209EC987F35%7DSydney-Harbour-Bridge-header.jpg</image>
+                    <image_alt>Sydney harbour bridge on a nice bright summer day.</image_alt>
+                    <map_icon>bridge_modern.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="13" category="Sculpture">
+                    <name>Bonds of Friendship</name>
+                    <address>Macquarie Pl, SYDNEY</address>
+                    <capacity/>
+                    <latitude>-33.8622</latitude>
+                    <longitude>151.210328</longitude>
+                    <website>http://www.cityartsydney.com.au/artwork/bonds-of-friendship/</website>
+                    <wiki/>
+                    <description>This memorial sculpture consists of two large bronze rings joined together as in a chain. It has weathered to a dull copper colour rather than the musty green colour of weathered bronze. The sculpture rests on a granite slab donated by the City of Portsmouth and is set on a low sandstone plinth.</description>
+                    <description_source>http://www.cityartsydney.com.au/artwork/bonds-of-friendship/</description_source>
+                    <short_description>The sculpture rests on a granite slab donated by the City of Portsmouth and is set on a low sandstone plinth.</short_description>
+                    <image>http://cdn.cityartsydney.com.au/wp-content/uploads/2014/12/SOM048MR-03-1024x682.jpg</image>
+                    <image_alt>The Sculpture of the bonds of friendship.</image_alt>
+                    <map_icon>modern_monument.png</map_icon>
+                </place_of_interest>
+
+                <place_of_interest poi_id="14" category="Beach">
+                    <name>Bondi Beach</name>
+                    <address>Bondi Beach, New South Wales 2026, Australia</address>
+                    <capacity/>
+                    <latitude>-33.89102</latitude>
+                    <longitude>151.277726</longitude>
+                    <website>http://www.environment.gov.au/heritage/places/national/bondi</website>
+                    <wiki>https://en.wikipedia.org/wiki/Bondi_Beach</wiki>
+                    <description>Bondi Beach is a popular beach and the name of the surrounding suburb in Sydney, New South Wales, Australia. Bondi Beach is located 7 km (4 mi) east of the Sydney central business district, in the local government area of Waverley Council, in the Eastern Suburbs. Bondi, North Bondi, and Bondi Junction are neighbouring suburbs. Bondi Beach is one of the most visited tourist sites in Australia.Bondi Beach is about 1 kilometre (0.62 mi) long and receives many visitors throughout the year. Surf Life Saving Australia has given different hazard ratings to Bondi Beach in 2004. While the northern end has been rated a gentle 4 (with 10 as the most hazardous), the southern side is rated as a 7 due to a famous rip current known as the "Backpackers' Rip" because of its proximity to the bus stop, the fact that many backpackers and tourists do not realise that the flat, smooth water is a rip, and quite dangerous, and the unwillingness of tourists to walk the length of the beach to safer swimming. The south end of the beach is generally reserved for surfboard riding.</description>
+                    <description_source>https://en.wikipedia.org/wiki/Bondi_Beach</description_source>
+                    <short_description>Bondi Beach is a popular beach and the name of the surrounding suburb in Sydney, New South Wales, Australia.</short_description>
+                    <image>https://cdn.experienceoz.com.au/assets/organisation/5856/banner/66092.jpg</image>
+                    <image_alt>Bondi beach on a busy afternoon.</image_alt>
+                    <map_icon>beach.png</map_icon>
+                </place_of_interest>
+            </places_of_interest>
+        </city>
+    </cities>
+</twinning>
